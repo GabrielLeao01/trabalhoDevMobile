@@ -37,12 +37,16 @@ O protótipo de telas foi inicialmente desenvolvido em outra disciplina e servir
 
 A modelagem do banco de dados atualmente está baseada em um modelo relacional com tabelas para veículos e manutenções.
 
-🔗 **Link para o DER no Figma:**  
-[Diagrama no Figma](https://www.figma.com/design/eh0SG2Q1qbUevIKWDzY4Ed/Intro-to-HCI?node-id=0-1&t=eNgFM7hwkjlQWqOQ-1)
-
-> Alternativamente, poderá ser utilizado o [draw.io](https://app.diagrams.net/) ou outro software para gerar um novo DER atualizado com o andamento do projeto.
-
----
+🔗 **Link para o DER:**  
++---------------------+          +-------------------------+
+|      USUÁRIO        |          |      MANUTENÇÕES        |
++---------------------+          +-------------------------+
+| PK marca_id         |◄─────────| FK marca_id             |
+| PK modelo_id        |◄─────────| FK modelo_id            |
+| PK ano_carro        |◄─────────| FK ano_carro            |
+| quilometragem       |          | quilometragem           |
+| renavam             |          | id_priori               |
++---------------------+          +-------------------------+
 
 ## Planejamento de sprints
 
@@ -62,5 +66,4 @@ O desenvolvimento do Vrumtech será dividido em duas sprints mensais:
 
 ---
 
-> Atualize este `README.md` conforme o progresso do projeto, marcando funcionalidades concluídas e inserindo novas informações conforme necessário.
 
