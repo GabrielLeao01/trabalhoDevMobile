@@ -37,7 +37,6 @@ O protótipo de telas foi inicialmente desenvolvido em outra disciplina e servir
 
 A modelagem do banco de dados atualmente está baseada em um modelo relacional com tabelas para veículos e manutenções.
 
-🔗 **Link para o DER:**  
 +---------------------+          +-------------------------+
 |      USUÁRIO        |          |      MANUTENÇÕES        |
 +---------------------+          +-------------------------+
