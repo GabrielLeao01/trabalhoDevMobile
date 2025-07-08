@@ -1,68 +1,50 @@
-# Vrumtech
+# Welcome to your Expo app 👋
 
-## Sobre o app
+This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-O **Vrumtech** é um aplicativo mobile criado para auxiliar proprietários de veículos no controle e monitoramento das manutenções necessárias de acordo com a quilometragem atual do veículo.
+## Get started
 
-### Funcionalidades prioritárias:
-- Cadastramento de veículos;
-- Página com informações sobre as próximas trocas a fazer;
-- Atualização da quilometragem a cada abastecimento.
+1. Install dependencies
 
-### Funcionalidades futuras:
-- Mapa com oficinas próximas ao usuário.
+   ```bash
+   npm install
+   ```
 
-### Checklist de funcionalidades (atualizar a cada checkpoint):
-- [ ] Criar banco de dados e tabelas
-- [ ] Popular tabelas de veículos e manutenções com dados para testes futuros
-- [ ] Testar relacionamento das tabelas
-- [ ] Criar tela de cadastramento de veículos
-- [ ] Criar tela de atualização de quilometragem através do abastecimento
-- [ ] Criar tela de próximas manutenções a fazer
-- [ ] Testar as funcionalidades
-- [ ] Criar interface com mapa de oficinas próximas (extra)
+2. Start the app
 
----
+   ```bash
+   npx expo start
+   ```
 
-## Protótipos de tela
+In the output, you'll find options to open the app in a
 
-O protótipo de telas foi inicialmente desenvolvido em outra disciplina e servirá como base para a interface deste projeto.
+- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
+- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
+- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
+- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-🔗 **Link para o Figma (visualização pública):**  
-[Protótipos no Figma](https://www.figma.com/design/eh0SG2Q1qbUevIKWDzY4Ed/Intro-to-HCI?node-id=0-1&t=eNgFM7hwkjlQWqOQ-1)
+You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
----
+## Get a fresh project
 
-## Modelagem do banco
+When you're ready, run:
 
-A modelagem do banco de dados atualmente está baseada em um modelo relacional com tabelas para veículos e manutenções.
+```bash
+npm run reset-project
+```
 
-+---------------------+          +-------------------------+
-|      USUÁRIO        |          |      MANUTENÇÕES        |
-+---------------------+          +-------------------------+
-| PK marca_id         |◄─────────| FK marca_id             |
-| PK modelo_id        |◄─────────| FK modelo_id            |
-| PK ano_carro        |◄─────────| FK ano_carro            |
-| quilometragem       |          | quilometragem           |
-| renavam             |          | id_priori               |
-+---------------------+          +-------------------------+
+This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-## Planejamento de sprints
+## Learn more
 
-O desenvolvimento do Vrumtech será dividido em duas sprints mensais:
+To learn more about developing your project with Expo, look at the following resources:
 
-### 📅 Maio
-- Criar banco de dados e tabelas (**1 semana**)
-- Popular tabelas de veículos e manutenções com dados para testes futuros (**0.5 semana**)
-- Testar relacionamento das tabelas (**0.5 semana**)
-- Criar tela de cadastramento de veículos (**2 semanas**)
+- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
+- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
 
-### 📅 Junho
-- Criar tela de atualização de quilometragem através do abastecimento (**1 semana**)
-- Criar tela de próximas manutenções a fazer (**1 semana**)
-- Testar as funcionalidades (**2 semanas**)
-- Criar interface com mapa de oficinas próximas (extra)
+## Join the community
 
----
+Join our community of developers creating universal apps.
 
-
+- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
+- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
