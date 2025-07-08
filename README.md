@@ -37,15 +37,7 @@ O protótipo de telas foi inicialmente desenvolvido em outra disciplina e servir
 
 A modelagem do banco de dados atualmente está baseada em um modelo relacional com tabelas para veículos e manutenções.
 
-+---------------------+          +-------------------------+
-|      USUÁRIO        |          |      MANUTENÇÕES        |
-+---------------------+          +-------------------------+
-| PK marca_id         |◄─────────| FK marca_id             |
-| PK modelo_id        |◄─────────| FK modelo_id            |
-| PK ano_carro        |◄─────────| FK ano_carro            |
-| quilometragem       |          | quilometragem           |
-| renavam             |          | id_priori               |
-+---------------------+          +-------------------------+
+[![Visualizar Modelagem](https://img.shields.io/badge/Diagrama-Visualizar_Modelagem-blue?style=for-the-badge&logo=drawio)](https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Diagrama%20Vrumtech.png&dark=auto#R%3Cmxfile%3E%3Cdiagram%20...%3C%2Fdiagram%3E%3C%2Fmxfile%3E)
 
 ## Planejamento de sprints
 
