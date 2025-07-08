@@ -16,7 +16,9 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "versionCode": 1,
+      "edgeToEdgeEnabled": true,
+      "package": "com.gabrielber12.vrumtech"
     },
     "web": {
       "bundler": "metro",
@@ -38,6 +40,12 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "2ff13c6d-47e8-4766-bd4f-ced2e1783ad4"
+      }
     }
   }
 }

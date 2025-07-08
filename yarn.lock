@@ -6825,10 +6825,6 @@ unbox-primitive@^1.1.0:
     has-symbols "^1.1.0"
     which-boxed-primitive "^1.1.1"
 
-undefined@react-native-picker/picker:
-  version "2.11.1"
-  resolved "https://codeload.github.com/react-native-picker/picker/tar.gz/11cade13725af12bb79c55769ca80f0f772dd95e"
-
 undici-types@~7.8.0:
   version "7.8.0"
   resolved "https://registry.yarnpkg.com/undici-types/-/undici-types-7.8.0.tgz#de00b85b710c54122e44fbfd911f8d70174cd294"
